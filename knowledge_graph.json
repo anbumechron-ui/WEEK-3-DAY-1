@@ -1,0 +1,55 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "entity_type": "Location",
+      "description": "A state in southern India known for its rich culture and history.",
+      "id": "TAMIL NADU"
+    },
+    {
+      "entity_type": "Location",
+      "description": "A district located in the state of Tamil Nadu.",
+      "id": "VELLORE DISTRICT"
+    },
+    {
+      "entity_type": "Organization",
+      "description": "A government department responsible for implementing rural infrastructure projects.",
+      "id": "RURAL DEVELOPMENT DEPARTMENT"
+    },
+    {
+      "entity_type": "Project",
+      "description": "Development projects aimed at improving infrastructure in rural areas.",
+      "id": "RURAL INFRASTRUCTURE PROJECTS"
+    },
+    {
+      "entity_type": "Organization",
+      "description": "Local government entities that work with the Rural Development Department.",
+      "id": "LOCAL BODIES"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "LOCATED_IN",
+      "evidence": "Vellore District is located in Tamil Nadu.",
+      "source": "VELLORE DISTRICT",
+      "target": "TAMIL NADU",
+      "key": 0
+    },
+    {
+      "relation": "IMPLEMENTS",
+      "evidence": "The Rural Development Department implements rural infrastructure projects.",
+      "source": "RURAL DEVELOPMENT DEPARTMENT",
+      "target": "RURAL INFRASTRUCTURE PROJECTS",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_WITH",
+      "evidence": "The department works with local bodies to improve village roads and public infrastructure.",
+      "source": "RURAL DEVELOPMENT DEPARTMENT",
+      "target": "LOCAL BODIES",
+      "key": 0
+    }
+  ]
+}
