@@ -1,0 +1,9 @@
+Tamil Nadu has several government development projects.
+
+Vellore District is located in Tamil Nadu.
+
+The Rural Development Department implements rural infrastructure projects.
+
+The department works with local bodies to improve village roads and public infrastructure.
+
+Knowledge Graph RAG can represent departments, districts, projects, and their relationships as connected data.
