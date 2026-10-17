@@ -1,0 +1,16 @@
+
+define flow check user topic
+  $allowed = execute check_topic_allowed
+
+  if not $allowed
+    bot refuse
+    stop
+
+define flow self check facts
+  $check = execute check_answer_quality
+
+  if not $check
+    bot inform cannot answer reliably
+
+define bot refuse
+  "I can help with Python programming and AI development questions only."
