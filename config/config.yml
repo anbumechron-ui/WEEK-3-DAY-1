@@ -1,0 +1,12 @@
+
+models:
+  - type: main
+    engine: openai
+    model: gpt-4o-mini
+
+instructions:
+  - type: general
+    content: |
+      You are a helpful assistant.
+      Answer questions about Python programming
+      and AI development.
